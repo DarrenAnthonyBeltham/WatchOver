@@ -2,19 +2,20 @@ import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Container, Row, Col } from 'react-bootstrap';
 import { FaPhone, FaEnvelope, FaMapMarkerAlt, FaTwitter, FaInstagram, FaFacebookF } from 'react-icons/fa';
+import './Footer.css'
 
 const Footer = () => {
   return (
-    <footer style={{ backgroundColor: '#333', color: '#fff', padding: '40px 0', height: '400px' }}>
+    <footer style={{ backgroundColor: '#333', color: '#fff', height: '400px', alignContent: 'center', justifyContent: 'center', paddingLeft: '150px'}}>
       <Container fluid>
         <Row className="text-center text-md-left">
           <Col md={3} className="mb-4 mb-md-0">
-            <h5 className="fw-bold">WatchOver</h5>
-            <p>"WatchOver yourself and the people around you"</p>
+            <h5 className="fw-bold fs-3">WatchOver</h5>
+            <p className='fs-6'>"WatchOver yourself and the people around you"</p>
           </Col>
           <Col md={6} className="mb-4 mb-md-0">
             <Row>
-              <Col md={6} className='ms-5'>
+              <Col md={6} className='d-flex-column ps-5-custom'>
                 <h5 className="fw-bold text-start">Navigate</h5>
                 <ul className="list-unstyled text-start">
                   <li><a href="#!" style={{ color: '#fff' }}>Home</a></li>
@@ -41,9 +42,9 @@ const Footer = () => {
             </div>
           </Col>
         </Row>
-        <Row className="mt-4 text-center">
+        <Row className="mt-5 text-center">
           <Col>
-            <p>&copy; 2024 WatchOver, All rights reserved.</p>
+            <p className='fw-bold ps-3-custom'>&copy; 2024 WatchOver, All rights reserved.</p>
           </Col>
         </Row>
       </Container>
