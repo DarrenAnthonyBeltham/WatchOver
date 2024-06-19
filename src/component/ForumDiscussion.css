@@ -1,0 +1,45 @@
+.sidebar {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-right: 1px solid #ddd;
+  }
+  
+  .right-sidebar {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-left: 1px solid #ddd;
+    margin-bottom: 20px;
+  }
+  
+  .righttags {
+    color: black;
+  }
+  
+  .card-body img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+  }
+  
+  .pagination {
+    justify-content: center;
+  }
+  
+  button.btn-warning {
+    background-color: #ccff33;
+    border: 1px solid black;
+  }
+  
+  button.btn-warning:hover {
+    background-color: #b3e600;
+  }
+  
+  button {
+    color: black;
+  }
+  
+  .post-image {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+  }

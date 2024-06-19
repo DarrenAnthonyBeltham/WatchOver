@@ -1,0 +1,71 @@
+body {
+    background-color: #ffffff;
+    font-family: 'Lato', sans-serif;
+  }
+  
+  .container {
+    max-width: 450px;
+    margin-top: 50px;
+  }
+  
+  .form-container {
+    padding: 30px;
+    background-color: #e9ecef;
+    border-radius: 10px;
+    margin: 20px; 
+  }
+  
+  .form-header {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  .form-header div {
+    margin: 0 15px;
+    padding-bottom: 5px;
+    cursor: pointer;
+  }
+  
+  .form-header .active {
+    border-bottom: 2px solid #000;
+  }
+  
+  .signup-form {
+    margin: 20px 0; 
+  }
+
+  .btn-social {
+    width: 100%;
+    margin-top: 10px;
+  }
+  
+  .btn-social i {
+    margin-right: 8px;
+  }
+  
+  .or-separator {
+    display: flex;
+    align-items: center;
+    margin: 20px 0;
+  }
+  
+  .or-separator::before,
+  .or-separator::after {
+    content: '';
+    flex: 1;
+    height: 3px;
+    background: #000000;
+  }
+  
+  .or-separator::before {
+    margin-right: 10px;
+  }
+  
+  .or-separator::after {
+    margin-left: 10px;
+  }
+  
+  .termsandcondition {
+    font-size: 14px;
+  }
