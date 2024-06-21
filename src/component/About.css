@@ -1,0 +1,39 @@
+.aboutus {
+  width: 58%; 
+  padding: 20px;
+}
+
+.advertisements {
+  width: 20%; 
+  padding: 20px;
+}
+
+.rightsidebar {
+  width: 22%; 
+  padding: 20px;
+}
+
+.d-flex {
+  justify-content: space-between;
+}
+
+.mt-4 {
+  margin-top: 1.5rem !important;
+}
+
+.hrsize {
+  height: 0px;
+}
+
+.comments-section {
+  border-top: 1px solid #ddd;
+  padding-top: 10px;
+}
+
+.comments-section h5 {
+  margin-bottom: 10px;
+}
+
+.comments-section .comment {
+  margin-bottom: 10px;
+}

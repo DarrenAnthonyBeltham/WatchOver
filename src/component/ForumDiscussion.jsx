@@ -1,7 +1,18 @@
-import React, { useState } from 'react';
-import { Container, Row, Col, Button, Form, Card, Badge, Image, Pagination, ListGroup } from 'react-bootstrap';
-import './ForumDiscussion.css';
-import nicolaspage from '../img/Homepage/NicolasCage.webp'
+import React, { useState } from "react";
+import {
+  Container,
+  Row,
+  Col,
+  Button,
+  Form,
+  Card,
+  Badge,
+  Image,
+  Pagination,
+  ListGroup,
+} from "react-bootstrap";
+import "./ForumDiscussion.css";
+import nicolaspage from "../img/Homepage/NicolasCage.webp";
 
 const ForumDiscussion = () => {
   const posts = [
@@ -17,7 +28,7 @@ const ForumDiscussion = () => {
     },
     {
       id: 2,
-      image: "path-to-image-2", // Replace with actual path to image 2
+      image: "path-to-image-2",
       title: "Met Gala 2024: Celebrities, Red Carpet, Theme & More",
       time: "Posted 12 hours ago",
       tags: ["Celebrity", "Hollywood"],
@@ -26,7 +37,7 @@ const ForumDiscussion = () => {
     },
     {
       id: 3,
-      image: "path-to-image-2", // Replace with actual path to image 2
+      image: "path-to-image-2",
       title: "Met Gala 2024: Celebrities, Red Carpet, Theme & More",
       time: "Posted 12 hours ago",
       tags: ["Celebrity", "Hollywood"],
@@ -35,7 +46,7 @@ const ForumDiscussion = () => {
     },
     {
       id: 4,
-      image: "path-to-image-2", // Replace with actual path to image 2
+      image: "path-to-image-2",
       title: "Met Gala 2024: Celebrities, Red Carpet, Theme & More",
       time: "Posted 12 hours ago",
       tags: ["Celebrity", "Hollywood"],
@@ -44,7 +55,7 @@ const ForumDiscussion = () => {
     },
     {
       id: 5,
-      image: "path-to-image-2", // Replace with actual path to image 2
+      image: "path-to-image-2",
       title: "Met Gala 2024: Celebrities, Red Carpet, Theme & More",
       time: "Posted 12 hours ago",
       tags: ["Celebrity", "Hollywood"],
@@ -53,7 +64,7 @@ const ForumDiscussion = () => {
     },
     {
       id: 6,
-      image: "path-to-image-2", // Replace with actual path to image 2
+      image: "path-to-image-2",
       title: "Met Gala 2024: Celebrities, Red Carpet, Theme & More",
       time: "Posted 12 hours ago",
       tags: ["Celebrity", "Hollywood"],
@@ -62,7 +73,7 @@ const ForumDiscussion = () => {
     },
     {
       id: 7,
-      image: "path-to-image-2", // Replace with actual path to image 2
+      image: "path-to-image-2",
       title: "Met Gala 2024: Celebrities, Red Carpet, Theme & More",
       time: "Posted 12 hours ago",
       tags: ["Celebrity", "Hollywood"],
@@ -71,7 +82,7 @@ const ForumDiscussion = () => {
     },
     {
       id: 8,
-      image: "path-to-image-2", // Replace with actual path to image 2
+      image: "path-to-image-2",
       title: "Met Gala 2024: Celebrities, Red Carpet, Theme & More",
       time: "Posted 12 hours ago",
       tags: ["Celebrity", "Hollywood"],
@@ -80,7 +91,7 @@ const ForumDiscussion = () => {
     },
     {
       id: 9,
-      image: "path-to-image-2", // Replace with actual path to image 2
+      image: "path-to-image-2",
       title: "Met Gala 2024: Celebrities, Red Carpet, Theme & More",
       time: "Posted 12 hours ago",
       tags: ["Celebrity", "Hollywood"],
